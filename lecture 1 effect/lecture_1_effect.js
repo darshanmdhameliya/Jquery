@@ -35,7 +35,7 @@
 //     })
 // })
 
-//  fadeIn , fadeOut ,fadetoggle method 
+//  fadeIn , fadeOut ,fadetoggle method
 
 // $(function(){
 //     $('#fadeIn').click(function(){
@@ -59,7 +59,7 @@
 //     })
 // })
 
-//  slideDown ,slideUp ,slideToggle method 
+//  slideDown ,slideUp ,slideToggle method
 
 // $(function(){
 //     $('#click1').click(function(){
@@ -121,3 +121,33 @@
 //         $('div').animate({width:'1000px'},'slow')
 //     })
 // })
+
+// stop() method
+
+// $(function(){
+//     $('.slide').click(function(){
+//         $('.slide-panel').slideDown(5000);
+//     });
+//     $('.stop-button').click(function(){
+//         $('.slide-panel').stop();
+//     });
+// });
+
+//  callback effects
+
+// $(function(){
+//     $('.hide').click(function(){
+//         $('.para').hide('slow',function(){
+//             alert('para is now hide')
+//         })
+//     })
+// })
+
+// chainnig
+
+$(function () {
+  $(".hide").click(function () {
+    $(".para").
+     
+  });
+
