@@ -109,3 +109,52 @@
 //     });
 //   });
 // });
+
+
+// Dimensions
+
+// width()
+// height()
+// innerWidth()
+// innerHeight()
+// outerWidth()
+// outerHeight()
+
+// width() and height() Methods 
+// width() - returns the width of an element.
+// height() - returns the height of an element.
+
+// $(function () {
+//     $('.btn').click(function () {
+//         var txt = "";
+//         txt += "Width of div: " + $(".div1").width() + "</br>";
+//         txt += "Height of div: " + $(".div1").height();
+//         $(".div1").html(txt);
+//     })
+// })
+
+// innerWidth() and innerHeight() Methods
+// innerWidth() - returns the width of an element (includes padding).
+// innerHeight() - returns the height of an element (includes padding).
+
+// $(function () {
+//     $('.btn').click(function () {
+//         var txt = "";
+//         txt += "Width of div: " + $(".div1").width() + "</br>";
+//         txt += "Height of div: " + $(".div1").height() + "</br>";
+//         txt += "inner width of div : " + $(".div1").innerWidth() + "</br>";
+//         txt += "inner height of div : " + $(".div1").innerHeight();
+//         $(".div1").html(txt);
+//     })
+// })
+
+// outerWidth() and outerHeight() Methods
+
+// $(function () {
+//     $('.btn').click(function () {
+//         var txt = "";
+//         txt += "outer width of div : " + $(".div1").outerWidth() + "</br>";
+//         txt += "outer height of div : " + $(".div1").outerHeight();
+//         $(".div1").html(txt);
+//     })
+// })
