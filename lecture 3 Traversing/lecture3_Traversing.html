@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <style>
-        .main * {
-            display: block;
-            border: 2px solid lightgrey;
-            color: lightgrey;
-            padding: 5px;
-            margin: 15px;
-        }
+      .main * {
+        display: block;
+        border: 2px solid lightgrey;
+        color: lightgrey;
+        padding: 5px;
+        margin: 15px;
+      }
     </style>
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!-- Traversing - Ancestors -->
 
     <!-- parent()
@@ -64,7 +64,6 @@
         </div>
     </div> -->
 
-
     <!-- raversing - Descendants -->
 
     <!-- children()
@@ -81,7 +80,6 @@
         </p>
     </div> -->
 
-
     <!-- Traversing - Siblings -->
 
     <!-- siblings()
@@ -92,17 +90,46 @@
          prevAll()
          prevUntil()  -->
 
-    <div class="main">div (parent)
-        <p>p</p>
-        <span>span</span>
-        <h2>h2</h2>
-        <h3>h3</h3>
-        <p>p</p>
-        <h4>h4</h4>
-        <h5>h5</h5>
+    <!-- <div class="main">
+      div (parent)
+      <p>p</p>
+      <span>span</span>
+      <h2>h2</h2>
+      <h3>h3</h3>
+      <p>p</p>
+      <h4>h4</h4>
+      <h5>h5</h5>
+    </div> -->
+
+    <!-- Traversing - Filtering -->
+
+    <!-- first()
+    last() 
+    eq() 
+    filter() 
+    not() -->
+
+    <!-- first() Method -->
+
+    <div style="border: 1px solid black">
+      <p class="filter">A paragraph in a div.</p>
+      <p>Another paragraph in a div.</p>
+      <h1 class="filter">hello</h1>
+    </div>
+    <br />
+
+    <div style="border: 1px solid black">
+      <p>A paragraph in another div.</p>
+      <p>Another paragraph in another div.</p>
+    </div>
+    <br />
+
+    <div style="border: 1px solid black">
+      <p>A paragraph in another div.</p>
+      <p>Another paragraph in another div.</p>
     </div>
 
+    
     <script src="lecture3_Traversing.js"></script>
-</body>
-
+  </body>
 </html>

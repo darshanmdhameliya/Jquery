@@ -91,6 +91,42 @@
 
 
 
+// Traversing - Filtering
 
+// first()
+// last()
+// eq()
+// filter()
+// not() 
 
+// first() Method
 
+// $(function(){
+//     $("div").first().css("background-color","yellow");
+// });
+
+// second() Method
+
+// $(function(){
+//     $("div").last().css("background-color","yellow");
+// });
+
+// eq() method
+
+// $(function(){
+//     $("div").eq(1).css("background-color","yellow");
+// });
+
+// filter() Method
+// tame jema class nakhelo hoy tema j css lage
+
+// $(function(){
+//     $("p").filter('.filter').css("background-color","yellow");
+// });
+
+// not() Method
+// tame jema class nakhelo hoy tema css no lage baki badha ma lage
+
+// $(function(){
+//     $("p").not('.filter').css("background-color","yellow");
+// });
