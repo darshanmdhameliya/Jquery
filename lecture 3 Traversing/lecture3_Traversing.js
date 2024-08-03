@@ -51,12 +51,11 @@
 // })
 
 
-
 // Traversing - Siblings
 
 // siblings()
 // next()
-// nextAll()
+// nextAll()    
 // nextUntil()
 // prev()
 // prevAll()
@@ -64,12 +63,12 @@
 
 
 // siblings() method
-// $(document).ready(function () {
-//     $("h2").siblings().css({ "color": "red", "border": "2px solid red" });
-// });
-// $(document).ready(function () {
-//     $("h2").siblings("p").css({ "color": "red", "border": "2px solid red" });
-// });
+$(document).ready(function () {
+    $("h2").siblings().css({ "color": "red", "border": "2px solid red" });
+});
+$(document).ready(function () {
+    $("h2").siblings("p").css({ "color": "red", "border": "2px solid red" });
+});
 
 
 // next() Method
